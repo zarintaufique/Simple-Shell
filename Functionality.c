@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<errno.h>
-#include"19L-1029_header.h"
+#include"header.h"
 
 #define LINE_LEN 80
 #define MAX_ARGS 64
