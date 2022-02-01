@@ -1,4 +1,4 @@
-# Simple-Shell
+# Simple-Shell-with-Makefile
 
 Design and implement a simple, interactive shell program that prompts the user for a command, parses
 the command, and then executes it with a child process. In your solution you are required to use
