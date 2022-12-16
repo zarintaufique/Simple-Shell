@@ -123,3 +123,5 @@ char* lookupPath(char* argv[], char* dir[]) {
 		return NULL;
 	}
 }
+
+
