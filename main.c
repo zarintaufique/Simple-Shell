@@ -6,7 +6,6 @@
 #include<errno.h>
 #include"header.h"
 
-
 #define LINE_LEN 80
 #define MAX_ARGS 64
 #define MAX_ARG_LEN 16
@@ -14,8 +13,7 @@
 #define MAX_PATH_LEN 96
 #define WHITESPACE " ,\t\n"
 
-
-
+// main starts here
 int main() {
 	/* Shell initialization */
 
@@ -31,10 +29,7 @@ int main() {
 		argv[i] = NULL;
 		argv[i] = (char*)malloc(100);
 	}
-
 	parsePath(dirs);
-
-
 	while (1) {
 		type_prompt(); //display prompt on screen
 
